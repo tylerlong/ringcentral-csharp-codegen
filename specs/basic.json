@@ -219,7 +219,7 @@
       }
     },
 
-    
+
     "/" : {
 
     "get" : {
@@ -230,7 +230,7 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
           ],
           "responses": {
             "200": {
@@ -251,12 +251,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "apiVersion",
               "type": "string",
               "in": "path",
-              "description": "API version to be requested, for example 'v1.0'",              
+              "description": "API version to be requested, for example 'v1.0'",
               "required": true
             }
           ],
@@ -279,12 +279,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             }
@@ -308,7 +308,7 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
           ],
           "responses": {
             "200": {
@@ -329,12 +329,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -355,7 +355,7 @@
             {
               "name": "usageType",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -385,12 +385,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -398,7 +398,7 @@
               "name": "phoneNumberId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a phone number",              
+              "description": "Internal identifier of a phone number",
               "required": true
             }
           ],
@@ -421,12 +421,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -447,7 +447,7 @@
             {
               "name": "status",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -460,7 +460,7 @@
             {
               "name": "type",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -490,12 +490,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -503,7 +503,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             }
@@ -527,12 +527,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -540,14 +540,14 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
             {
               "name": "usageType",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -591,12 +591,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -604,7 +604,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -612,7 +612,7 @@
               "name": "scaleSize",
               "type": "'90x90' | '195'x'195' | '584'x'584'",
               "in": "path",
-              "description": "Dimensions of a profile image which will be returned in response. If this path parameter is not specified in request URI then",              
+              "description": "Dimensions of a profile image which will be returned in response. If this path parameter is not specified in request URI then",
               "required": true
             }
           ],
@@ -632,12 +632,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -645,7 +645,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             }
@@ -666,12 +666,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -679,7 +679,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             }
@@ -703,12 +703,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -716,14 +716,14 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
             {
               "name": "direction",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -736,7 +736,7 @@
             {
               "name": "type",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -780,12 +780,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -793,7 +793,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -814,7 +814,7 @@
             {
               "name": "direction",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -827,7 +827,7 @@
             {
               "name": "type",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -840,7 +840,7 @@
             {
               "name": "view",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -905,12 +905,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -918,7 +918,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -926,7 +926,7 @@
               "name": "callRecordId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a call log record",              
+              "description": "Internal identifier of a call log record",
               "required": true
             }
           ],
@@ -949,12 +949,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -962,7 +962,7 @@
               "name": "recordingId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of recording (returned in Call Log)",              
+              "description": "Internal identifier of recording (returned in Call Log)",
               "required": true
             }
           ],
@@ -985,12 +985,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -998,7 +998,7 @@
               "name": "recordingId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a call recording, see Recording Info",              
+              "description": "Internal identifier of a call recording, see Recording Info",
               "required": true
             }
           ],
@@ -1021,12 +1021,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1034,7 +1034,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1072,12 +1072,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1085,7 +1085,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },{
@@ -1098,7 +1098,7 @@
               },
               "required": true
             }
-            
+
           ],
           "responses": {
             "200": {
@@ -1179,12 +1179,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1192,7 +1192,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },{
@@ -1205,7 +1205,7 @@
               },
               "required": true
             }
-            
+
           ],
           "responses": {
             "200": {
@@ -1226,12 +1226,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1239,14 +1239,14 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
             {
               "name": "availability",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -1280,7 +1280,7 @@
             {
               "name": "direction",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -1300,7 +1300,7 @@
             {
               "name": "messageType",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -1313,7 +1313,7 @@
             {
               "name": "readStatus",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -1364,12 +1364,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1377,7 +1377,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1385,7 +1385,7 @@
               "name": "messageId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a message",              
+              "description": "Internal identifier of a message",
               "required": true
             }
           ],
@@ -1405,12 +1405,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1418,7 +1418,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1426,7 +1426,7 @@
               "name": "messageId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a message",              
+              "description": "Internal identifier of a message",
               "required": true
             },{
               "name": "body",
@@ -1438,7 +1438,7 @@
               },
               "required": true
             }
-            
+
           ],
           "responses": {
             "200": {
@@ -1456,12 +1456,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1469,7 +1469,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1477,7 +1477,7 @@
               "name": "messageId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a message",              
+              "description": "Internal identifier of a message",
               "required": true
             },
             {
@@ -1514,12 +1514,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1527,7 +1527,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1535,14 +1535,14 @@
               "name": "attachmentId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a message attachment",              
+              "description": "Internal identifier of a message attachment",
               "required": true
             },
             {
               "name": "messageId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a message",              
+              "description": "Internal identifier of a message",
               "required": true
             }
           ],
@@ -1565,12 +1565,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1578,7 +1578,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             }
@@ -1602,12 +1602,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1615,7 +1615,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },{
@@ -1628,7 +1628,7 @@
               },
               "required": true
             }
-            
+
           ],
           "responses": {
             "200": {
@@ -1649,12 +1649,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1662,7 +1662,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1670,7 +1670,7 @@
               "name": "ringoutId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingOut call",              
+              "description": "Internal identifier of a RingOut call",
               "required": true
             }
           ],
@@ -1690,12 +1690,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "accountId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",              
+              "description": "Internal identifier of a RingCentral account or tilde (~) to indicate the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1703,7 +1703,7 @@
               "name": "extensionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",              
+              "description": "Internal identifier of an extension or tilde (~) to indicate the extension assigned to the account logged-in within the current session",
               "required": true,
               "default": "~"
             },
@@ -1711,7 +1711,7 @@
               "name": "ringoutId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a RingOut call",              
+              "description": "Internal identifier of a RingOut call",
               "required": true
             }
           ],
@@ -1734,7 +1734,7 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "loginAllowed",
               "type": "boolean",
@@ -1783,12 +1783,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "countryId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a country",              
+              "description": "Internal identifier of a country",
               "required": true
             }
           ],
@@ -1811,7 +1811,7 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
           ],
           "responses": {
             "200": {
@@ -1832,12 +1832,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "languageId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a language",              
+              "description": "Internal identifier of a language",
               "required": true
             }
           ],
@@ -1860,11 +1860,11 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "orderBy",
               "type": "array",
-              "items": {  
+              "items": {
                      "type":"string"
                   },
               "collectionFormat": "multi",
@@ -1922,7 +1922,7 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "countryId",
               "type": "integer",
@@ -1971,12 +1971,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "stateId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a state",              
+              "description": "Internal identifier of a state",
               "required": true
             }
           ],
@@ -1999,7 +1999,7 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "page",
               "type": "string",
@@ -2034,12 +2034,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "timezoneId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a timezone",              
+              "description": "Internal identifier of a timezone",
               "required": true
             },
             {
@@ -2076,7 +2076,7 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "aggregated",
               "type": "boolean",
@@ -2093,7 +2093,7 @@
               },
               "required": true
             }
-            
+
           ],
           "responses": {
             "200": {
@@ -2114,12 +2114,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "subscriptionId",
               "type": "integer",
               "in": "path",
-              "description": "Internal identifier of a subscription",              
+              "description": "Internal identifier of a subscription",
               "required": true
             }
           ],
@@ -2139,12 +2139,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "subscriptionId",
               "type": "string",
               "in": "path",
-              "description": "Internal identifier of a subscription",              
+              "description": "Internal identifier of a subscription",
               "required": true
             },
             {
@@ -2163,7 +2163,7 @@
               },
               "required": true
             }
-            
+
           ],
           "responses": {
             "200": {
@@ -2181,12 +2181,12 @@
           "consumes": [ "application/json" ],
           "produces": [ "application/json" ],
           "parameters" : [
-            
+
             {
               "name": "subscriptionId",
               "type": "string",
               "in": "path",
-              "description": "Internal identifier of a subscription",              
+              "description": "Internal identifier of a subscription",
               "required": true
             }
           ],
@@ -2198,628 +2198,628 @@
               }
             }
           }
-      }}},  
+      }}},
   "definitions" : {
     "CreatePagerMessageRequest": {
       "required":[
         "from",
-        "text"      
+        "text"
       ],
-      "properties": { 
+      "properties": {
         "from": {
           "$ref": "#/definitions/MessageStoreCallerInfoRequest",
-          "description": "Sender of a pager message. The extensionNumber property must be filled"                    
-        }, 
+          "description": "Sender of a pager message. The extensionNumber property must be filled"
+        },
         "replyOn": {
           "type": "integer",
-          "description": "Internal identifier of a message this message replies to"                    
-        }, 
+          "description": "Internal identifier of a message this message replies to"
+        },
         "text": {
           "type": "string",
-          "description": "Text of a pager message. Max length is 1024 symbols (2-byte UTF-16 encoded). If a character is encoded in 4 bytes in UTF-16 it is treated as 2 characters, thus restricting the maximum message length to 512 symbols"                    
-        }, 
+          "description": "Text of a pager message. Max length is 1024 symbols (2-byte UTF-16 encoded). If a character is encoded in 4 bytes in UTF-16 it is treated as 2 characters, thus restricting the maximum message length to 512 symbols"
+        },
         "to": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/MessageStoreCallerInfoRequest"
           },
-          "description": "Optional if replyOn parameter is specified. Receiver of a pager message. The extensionNumber property must be filled"                    
+          "description": "Optional if replyOn parameter is specified. Receiver of a pager message. The extensionNumber property must be filled"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "MessageStoreCallerInfoRequest": {
       "required":[
-        "extensionNumber"      
+        "extensionNumber"
       ],
-      "properties": { 
+      "properties": {
         "extensionNumber": {
           "type": "string",
-          "description": "Extension short number (usually 3 or 4 digits). This property is filled when parties communicate by means of short internal numbers, for example when calling to other extension or sending/receiving Company Pager message"                    
-        }, 
+          "description": "Extension short number (usually 3 or 4 digits). This property is filled when parties communicate by means of short internal numbers, for example when calling to other extension or sending/receiving Company Pager message"
+        },
         "location": {
           "type": "string",
-          "description": "Contains party location (city, state) if one can be determined from phoneNumber. This property is filled only when phoneNumber is not empty and server can calculate location information from it (for example, this information is unavailable for US toll-free numbers)"                    
-        }, 
+          "description": "Contains party location (city, state) if one can be determined from phoneNumber. This property is filled only when phoneNumber is not empty and server can calculate location information from it (for example, this information is unavailable for US toll-free numbers)"
+        },
         "name": {
           "type": "string",
-          "description": "Symbolic name associated with a party. If the phone does not belong to the known extension,only the location is returned, the name is not determined then"                    
-        }, 
+          "description": "Symbolic name associated with a party. If the phone does not belong to the known extension,only the location is returned, the name is not determined then"
+        },
         "phoneNumber": {
           "type": "string",
-          "description": "Phone number of a party. Usually it is a plain number including country and area code like 18661234567. But sometimes it could be returned from database with some formatting applied, for example (866)123-4567. This property is filled in all cases where parties communicate by means of global phone numbers, for example when calling to direct numbers or sending/receiving SMS"                    
+          "description": "Phone number of a party. Usually it is a plain number including country and area code like 18661234567. But sometimes it could be returned from database with some formatting applied, for example (866)123-4567. This property is filled in all cases where parties communicate by means of global phone numbers, for example when calling to direct numbers or sending/receiving SMS"
         }
-      }    
+      }
     }
   ,
     "CreateFaxMessageRequest": {
       "required":[
-        "to"      
+        "to"
       ],
-      "properties": { 
+      "properties": {
         "to": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/MessageStoreCallerInfoRequest"
           },
-          "description": "Recipient information. Phone number property is mandatory. Optional for resend fax request"                    
-        }, 
+          "description": "Recipient information. Phone number property is mandatory. Optional for resend fax request"
+        },
         "resolution": {
-          "type": "string", 
+          "type": "string",
           "enum": ["High","Low"],
-          "description": "Fax resolution"                    
-        }, 
+          "description": "Fax resolution"
+        },
         "sendTime": {
           "type": "string",
           "format": "date-time",
-          "description": "The datetime to send fax at, in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. If time is not specified, the fax will be send immediately"                    
-        }, 
+          "description": "The datetime to send fax at, in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. If time is not specified, the fax will be send immediately"
+        },
         "coverIndex": {
           "type": "integer (0-16)",
-          "description": "Optional. Cover page index. If not specified, the default cover page which is configured in  Outbound Fax Settings  is attached. See also 'Available Cover Pages' table below"                    
-        }, 
+          "description": "Optional. Cover page index. If not specified, the default cover page which is configured in  Outbound Fax Settings  is attached. See also 'Available Cover Pages' table below"
+        },
         "coverPageText": {
           "type": "string",
-          "description": "Optional. Cover page text, entered by the fax sender and printed on the cover page. Maximum length is limited to 1024 symbols"                    
-        }, 
+          "description": "Optional. Cover page text, entered by the fax sender and printed on the cover page. Maximum length is limited to 1024 symbols"
+        },
         "originalMessageId": {
           "type": "string",
-          "description": "Internal identifier of the original fax message which needs to be resent. Mandatory for resend fax request"                    
+          "description": "Internal identifier of the original fax message which needs to be resent. Mandatory for resend fax request"
         }
-      }    
+      }
     }
   ,
     "CreateSMSMessage": {
       "required":[
         "from",
         "to",
-        "text"      
+        "text"
       ],
-      "properties": { 
+      "properties": {
         "from": {
           "$ref": "#/definitions/MessageStoreCallerInfoRequest",
-          "description": "Sender of an SMS message. The phoneNumber property must be filled to correspond to one of the account phone numbers which is allowed to send SMS"                    
-        }, 
+          "description": "Sender of an SMS message. The phoneNumber property must be filled to correspond to one of the account phone numbers which is allowed to send SMS"
+        },
         "to": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/MessageStoreCallerInfoRequest"
           },
-          "description": "Receiver of an SMS message. The phoneNumber property must be filled"                    
-        }, 
+          "description": "Receiver of an SMS message. The phoneNumber property must be filled"
+        },
         "text": {
           "type": "string",
-          "description": "Text of a message. Max length is 1000 symbols (2-byte UTF-16 encoded). If a character is encoded in 4 bytes in UTF-16 it is treated as 2 characters, thus restricting the maximum message length to 500 symbols"                    
+          "description": "Text of a message. Max length is 1000 symbols (2-byte UTF-16 encoded). If a character is encoded in 4 bytes in UTF-16 it is treated as 2 characters, thus restricting the maximum message length to 500 symbols"
         }
-      }    
+      }
     }
   ,
     "UpdateMessageRequest": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "readStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Read","Unread"],
-          "description": "Read status of a message to be changed. Multiple values are accepted"                    
+          "description": "Read status of a message to be changed. Multiple values are accepted"
         }
-      }    
+      }
     }
   ,
     "MakeRingOutRequest": {
       "required":[
         "from",
-        "to"      
+        "to"
       ],
-      "properties": { 
+      "properties": {
         "from": {
           "$ref": "#/definitions/MakeRingOutCallerInfoRequestFrom",
-          "description": "Phone number of the caller. This number corresponds to the 1st leg of the RingOut call. This number can be one of user's configured forwarding numbers or arbitrary number"                    
-        }, 
+          "description": "Phone number of the caller. This number corresponds to the 1st leg of the RingOut call. This number can be one of user's configured forwarding numbers or arbitrary number"
+        },
         "to": {
           "$ref": "#/definitions/MakeRingOutCallerInfoRequestTo",
-          "description": "Phone number of the called party. This number corresponds to the 2nd leg of the RingOut call"                    
-        }, 
+          "description": "Phone number of the called party. This number corresponds to the 2nd leg of the RingOut call"
+        },
         "callerId": {
           "$ref": "#/definitions/MakeRingOutCallerInfoRequestTo",
-          "description": "The number which will be displayed to the called party"                    
-        }, 
+          "description": "The number which will be displayed to the called party"
+        },
         "playPrompt": {
           "type": "boolean",
-          "description": "The audio prompt that the calling party hears when the call is connected"                    
-        }, 
+          "description": "The audio prompt that the calling party hears when the call is connected"
+        },
         "country": {
           "$ref": "#/definitions/MakeRingOutCoutryInfo",
-          "description": "Optional. Dialing plan country data. If not specified, then extension home country is applied by default"                    
+          "description": "Optional. Dialing plan country data. If not specified, then extension home country is applied by default"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "MakeRingOutCallerInfoRequestFrom": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "phoneNumber": {
           "type": "string",
-          "description": "Phone number in E.164 format"                    
-        }, 
+          "description": "Phone number in E.164 format"
+        },
         "forwardingNumberId": {
           "type": "string",
-          "description": "Internal identifier of a forwarding number; returned in response in the id field. Can be specified instead of the phoneNumber attribute"                    
+          "description": "Internal identifier of a forwarding number; returned in response in the id field. Can be specified instead of the phoneNumber attribute"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "MakeRingOutCallerInfoRequestTo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "phoneNumber": {
           "type": "string",
-          "description": "Phone number in E.164 format"                    
+          "description": "Phone number in E.164 format"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "MakeRingOutCoutryInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Dialing plan country identifier"                    
+          "description": "Dialing plan country identifier"
         }
-      }    
+      }
     }
   ,
     "CreateSubscriptionRequest": {
       "required":[
-        "deliveryMode"      
+        "deliveryMode"
       ],
-      "properties": { 
+      "properties": {
         "eventFilters": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "description": "Mandatory. Collection of URIs to API resources (see Event Types for details). For APNS transport type only message event filter is available"                    
-        }, 
+          "description": "Mandatory. Collection of URIs to API resources (see Event Types for details). For APNS transport type only message event filter is available"
+        },
         "deliveryMode": {
           "$ref": "#/definitions/NotificationDeliveryModeRequest",
-          "description": "Notification delivery settings"                    
+          "description": "Notification delivery settings"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "NotificationDeliveryModeRequest": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "transportType": {
-          "type": "string", 
+          "type": "string",
           "enum": ["PubNub","APNS","PubNub/APNS/VoIP"],
-          "description": "Notifications transportation provider name. 'APNS' (Apple Push Notifications Service)"                    
-        }, 
+          "description": "Notifications transportation provider name. 'APNS' (Apple Push Notifications Service)"
+        },
         "encryption": {
           "type": "boolean",
-          "description": "Optional parameter. Specifies if the message will be encrypted or not. If request contains any presence event filter the value by default is 'True' (even if specified as 'false'). If request contains only message event filters the value by default is 'False'"                    
+          "description": "Optional parameter. Specifies if the message will be encrypted or not. If request contains any presence event filter the value by default is 'True' (even if specified as 'false'). If request contains only message event filters the value by default is 'False'"
         }
-      }    
+      }
     }
   ,
     "ModifySubscriptionRequest": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "eventFilters": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "description": "Collection of URIs to API resources (see Event Types). Mandatory field"                    
+          "description": "Collection of URIs to API resources (see Event Types). Mandatory field"
         }
-      }    
+      }
     }
   ,
-    
+
     "GetVersionsResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "uri": {
           "type": "string",
-          "description": "Canonical URI of the API version"                    
-        }, 
+          "description": "Canonical URI of the API version"
+        },
         "apiVersions": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/VersionInfo"
           },
-          "description": "Full API version information: uri, number, release date"                    
-        }, 
+          "description": "Full API version information: uri, number, release date"
+        },
         "serverVersion": {
           "type": "string",
-          "description": "Server version"                    
-        }, 
+          "description": "Server version"
+        },
         "serverRevision": {
           "type": "string",
-          "description": "Server revision"                    
+          "description": "Server revision"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "VersionInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "uri": {
           "type": "string",
-          "description": "Canonical URI of API versions"                    
-        }, 
+          "description": "Canonical URI of API versions"
+        },
         "versionString": {
           "type": "string",
-          "description": "Version of the RingCentral REST API"                    
-        }, 
+          "description": "Version of the RingCentral REST API"
+        },
         "releaseDate": {
           "type": "string",
-          "description": "Release date of this version"                    
-        }, 
+          "description": "Release date of this version"
+        },
         "uriString": {
           "type": "string",
-          "description": "URI part determining the current version"                    
+          "description": "URI part determining the current version"
         }
-      }    
+      }
     }
   ,
     "GetVersionResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "uri": {
           "type": "string",
-          "description": "Canonical URI of the version info resource"                    
-        }, 
+          "description": "Canonical URI of the version info resource"
+        },
         "versionString": {
           "type": "string",
-          "description": "Version of the RingCentral REST API"                    
-        }, 
+          "description": "Version of the RingCentral REST API"
+        },
         "releaseDate": {
           "type": "string",
-          "description": "Release date of this version"                    
-        }, 
+          "description": "Release date of this version"
+        },
         "uriString": {
           "type": "string",
-          "description": "URI part determining the current version"                    
+          "description": "URI part determining the current version"
         }
-      }    
+      }
     }
   ,
     "GetAccountInfoResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of an account"                    
-        }, 
+          "description": "Internal identifier of an account"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of an account"                    
-        }, 
+          "description": "Canonical URI of an account"
+        },
         "mainNumber": {
           "type": "string",
-          "description": "Main phone number of the current account"                    
-        }, 
+          "description": "Main phone number of the current account"
+        },
         "operator": {
           "$ref": "#/definitions/GetExtensionInfoResponse",
-          "description": "Operator's extension information. This extension will receive all calls and messages intended for the operator"                    
-        }, 
+          "description": "Operator's extension information. This extension will receive all calls and messages intended for the operator"
+        },
         "partnerId": {
           "type": "string",
-          "description": "Additional account identifier, developed and applied by the client"                    
-        }, 
+          "description": "Additional account identifier, developed and applied by the client"
+        },
         "serviceInfo": {
           "$ref": "#/definitions/ServiceInfo",
-          "description": "Account service information, including brand, service plan and billing plan"                    
-        }, 
+          "description": "Account service information, including brand, service plan and billing plan"
+        },
         "setupWizardState": {
-          "type": "string", 
+          "type": "string",
           "enum": ["NotStarted","Incomplete","Completed"],
-          "description": "Specifies account configuration wizard state (web service setup). The default value is 'NotStarted'"                    
-        }, 
+          "description": "Specifies account configuration wizard state (web service setup). The default value is 'NotStarted'"
+        },
         "status": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Confirmed","Disabled"],
-          "description": "Status of the current account"                    
-        }, 
+          "description": "Status of the current account"
+        },
         "statusInfo": {
           "$ref": "#/definitions/AccountStatusInfo",
-          "description": "Status information (reason, comment, lifetime). Returned for 'Disabled' status only"                    
+          "description": "Status information (reason, comment, lifetime). Returned for 'Disabled' status only"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ServiceInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a service info resource"                    
-        }, 
+          "description": "Canonical URI of a service info resource"
+        },
         "billingPlan": {
           "$ref": "#/definitions/BillingPlanInfo",
-          "description": "Information on account billing plan"                    
-        }, 
+          "description": "Information on account billing plan"
+        },
         "brand": {
           "$ref": "#/definitions/BrandInfo",
-          "description": "Information on account brand"                    
-        }, 
+          "description": "Information on account brand"
+        },
         "servicePlan": {
           "$ref": "#/definitions/ServicePlanInfo",
-          "description": "Information on account service plan"                    
-        }, 
+          "description": "Information on account service plan"
+        },
         "targetServicePlan": {
           "$ref": "#/definitions/TargetServicePlanInfo",
-          "description": "Information on account target service plan"                    
+          "description": "Information on account target service plan"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "BillingPlanInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a billing plan"                    
-        }, 
+          "description": "Internal identifier of a billing plan"
+        },
         "name": {
           "type": "string",
-          "description": "Billing plan name"                    
-        }, 
+          "description": "Billing plan name"
+        },
         "durationUnit": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Month","Day"],
-          "description": "Duration period"                    
-        }, 
+          "description": "Duration period"
+        },
         "duration": {
           "type": "string",
-          "description": "Number of duration units"                    
-        }, 
+          "description": "Number of duration units"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Initial","Regular","Suspended","Trial","TrialNoCC","Free"],
-          "description": "Billing plan type"                    
+          "description": "Billing plan type"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "BrandInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a brand"                    
-        }, 
+          "description": "Internal identifier of a brand"
+        },
         "name": {
           "type": "string",
-          "description": "Brand name, for example  RingCentral UK ,  ClearFax "                    
-        }, 
+          "description": "Brand name, for example  RingCentral UK ,  ClearFax "
+        },
         "homeCountry": {
           "$ref": "#/definitions/CountryInfo",
-          "description": "Home country information"                    
+          "description": "Home country information"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "CountryInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a home country"                    
-        }, 
+          "description": "Internal identifier of a home country"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a home country"                    
-        }, 
+          "description": "Canonical URI of a home country"
+        },
         "name": {
           "type": "string",
-          "description": "Official name of a home country"                    
+          "description": "Official name of a home country"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ServicePlanInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a service plan"                    
-        }, 
+          "description": "Internal identifier of a service plan"
+        },
         "name": {
           "type": "string",
-          "description": "Name of a service plan"                    
-        }, 
+          "description": "Name of a service plan"
+        },
         "edition": {
           "type": "string",
-          "description": "Edition of a service plan"                    
+          "description": "Edition of a service plan"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "TargetServicePlanInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a target service plan"                    
-        }, 
+          "description": "Internal identifier of a target service plan"
+        },
         "name": {
           "type": "string",
-          "description": "Name of a target service plan"                    
+          "description": "Name of a target service plan"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "AccountStatusInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "comment": {
           "type": "string",
-          "description": "A free-form user comment, describing the status change reason"                    
-        }, 
+          "description": "A free-form user comment, describing the status change reason"
+        },
         "reason": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Voluntarily","Involuntarily"],
-          "description": "Type of suspension"                    
+          "description": "Type of suspension"
         }
-      }    
+      }
     }
   ,
     "": {
       "required":[
         "records",
         "paging",
-        "navigation"      
+        "navigation"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/PhoneNumberInfo"
           },
-          "description": "List of account phone numbers"                    
-        }, 
+          "description": "List of account phone numbers"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
-        }, 
+          "description": "Information on paging"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
+          "description": "Information on navigation"
         }
-      }    
+      }
     }
   ,
     "GetExtensionListResponse": {
       "required":[
         "records",
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/GetExtensionInfoResponse"
           },
-          "description": "List of extensions with extension information"                    
-        }, 
+          "description": "List of extensions with extension information"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "NavigationInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "firstPage": {
           "type": "string",
-          "description": "Canonical URI for the first page of the list"                    
-        }, 
+          "description": "Canonical URI for the first page of the list"
+        },
         "nextPage": {
           "type": "string",
-          "description": "Canonical URI for the next page of the list"                    
-        }, 
+          "description": "Canonical URI for the next page of the list"
+        },
         "previousPage": {
           "type": "string",
-          "description": "Canonical URI for the previous page of the list"                    
-        }, 
+          "description": "Canonical URI for the previous page of the list"
+        },
         "lastPage": {
           "type": "string",
-          "description": "Canonical URI for the last page of the list"                    
+          "description": "Canonical URI for the last page of the list"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "PagingInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "page": {
           "type": "integer",
-          "description": "The current page number. 1-indexed, so the first page is 1 by default. May be omitted if result is empty (because non-existent page was specified or perPage=0 was requested)"                    
-        }, 
+          "description": "The current page number. 1-indexed, so the first page is 1 by default. May be omitted if result is empty (because non-existent page was specified or perPage=0 was requested)"
+        },
         "perPage": {
           "type": "integer",
-          "description": "Current page size, describes how many items are in each page. Default value is 100. Maximum value is 1000. If perPage value in the request is greater than 1000, the maximum value (1000) is applied"                    
-        }, 
+          "description": "Current page size, describes how many items are in each page. Default value is 100. Maximum value is 1000. If perPage value in the request is greater than 1000, the maximum value (1000) is applied"
+        },
         "pageStart": {
           "type": "integer",
-          "description": "The zero-based number of the first element on the current page. Omitted if the page is omitted or result is empty"                    
-        }, 
+          "description": "The zero-based number of the first element on the current page. Omitted if the page is omitted or result is empty"
+        },
         "pageEnd": {
           "type": "integer",
-          "description": "The zero-based index of the last element on the current page. Omitted if the page is omitted or result is empty"                    
-        }, 
+          "description": "The zero-based index of the last element on the current page. Omitted if the page is omitted or result is empty"
+        },
         "totalPages": {
           "type": "integer",
-          "description": "The total number of pages in a dataset. May be omitted for some resources due to performance reasons"                    
-        }, 
+          "description": "The total number of pages in a dataset. May be omitted for some resources due to performance reasons"
+        },
         "totalElements": {
           "type": "integer",
-          "description": "The total number of elements in a dataset. May be omitted for some resource due to performance reasons"                    
+          "description": "The total number of elements in a dataset. May be omitted for some resource due to performance reasons"
         }
-      }    
+      }
     }
   ,
     "GetExtensionInfoResponse": {
@@ -2828,1559 +2828,1558 @@
         "uri",
         "profileImage",
         "status",
-        "type"      
+        "type"
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of an extension"                    
-        }, 
+          "description": "Internal identifier of an extension"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of an extension"                    
-        }, 
+          "description": "Canonical URI of an extension"
+        },
         "contact": {
           "$ref": "#/definitions/ContactInfo",
-          "description": "Contact detailed information"                    
-        }, 
+          "description": "Contact detailed information"
+        },
         "departments": {
           "$ref": "#/definitions/DepartmentInfo",
-          "description": "Information on department extension(s), to which the requested extension belongs. Returned only for user extensions, members of department, requested by single extensionId"                    
-        }, 
+          "description": "Information on department extension(s), to which the requested extension belongs. Returned only for user extensions, members of department, requested by single extensionId"
+        },
         "extensionNumber": {
           "type": "string",
-          "description": "Number of department extension"                    
-        }, 
+          "description": "Number of department extension"
+        },
         "name": {
           "type": "string",
-          "description": "Extension user name"                    
-        }, 
+          "description": "Extension user name"
+        },
         "partnerId": {
           "type": "string",
-          "description": "For Partner Applications Internal identifier of an extension created by partner. The RingCentral supports the mapping of accounts and stores the corresponding account ID/extension ID for each partner ID of a client application. In request URIs partner IDs are accepted instead of regular RingCentral native IDs as path parameters using pid = XXX clause. Though in response URIs contain the corresponding account IDs and extension IDs. In all request and response bodies these values are reflected via partnerId attributes of account and extension"                    
-        }, 
+          "description": "For Partner Applications Internal identifier of an extension created by partner. The RingCentral supports the mapping of accounts and stores the corresponding account ID/extension ID for each partner ID of a client application. In request URIs partner IDs are accepted instead of regular RingCentral native IDs as path parameters using pid = XXX clause. Though in response URIs contain the corresponding account IDs and extension IDs. In all request and response bodies these values are reflected via partnerId attributes of account and extension"
+        },
         "permissions": {
           "$ref": "#/definitions/ExtensionPermissions",
-          "description": "Extension permissions, corresponding to the Service Web permissions 'Admin' and 'InternationalCalling'"                    
-        }, 
+          "description": "Extension permissions, corresponding to the Service Web permissions 'Admin' and 'InternationalCalling'"
+        },
         "profileImage": {
           "$ref": "#/definitions/ProfileImageInfo",
-          "description": "Information on profile image"                    
-        }, 
+          "description": "Information on profile image"
+        },
         "references": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/ReferenceInfo"
           },
-          "description": "List of non-RC internal identifiers assigned to an extension"                    
-        }, 
+          "description": "List of non-RC internal identifiers assigned to an extension"
+        },
         "regionalSettings": {
           "$ref": "#/definitions/RegionalSettings",
-          "description": "Extension region data (timezone, home country, language)"                    
-        }, 
+          "description": "Extension region data (timezone, home country, language)"
+        },
         "serviceFeatures": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/ExtensionServiceFeatureInfo"
           },
-          "description": "Extension service features returned in response only when the logged-in user requests his/her own extension info, see also Extension Service Features"                    
-        }, 
+          "description": "Extension service features returned in response only when the logged-in user requests his/her own extension info, see also Extension Service Features"
+        },
         "setupWizardState": {
-          "type": "string", 
+          "type": "string",
           "enum": ["NotStarted","Incomplete","Completed"],
-          "description": "Specifies extension configuration wizard state (web service setup). The default value is 'NotStarted'"                    
-        }, 
+          "description": "Specifies extension configuration wizard state (web service setup). The default value is 'NotStarted'"
+        },
         "status": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Enabled","Disabled","NotActivated","Unassigned"],
-          "description": "Extension current state. If the status is 'Unassigned'. Returned for all extensions"                    
-        }, 
+          "description": "Extension current state. If the status is 'Unassigned'. Returned for all extensions"
+        },
         "statusInfo": {
           "$ref": "#/definitions/ExtensionStatusInfo",
-          "description": "Status information (reason, comment). Returned for 'Disabled' status only"                    
-        }, 
+          "description": "Status information (reason, comment). Returned for 'Disabled' status only"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["User","FaxUser","VirtualUser","DigitalUser","Department","Announcement","Voicemail","SharedLinesGroup","PagingOnlyGroup","IvrMenu","ApplicationExtension","ParkLocation"],
-          "description": "Extension type"                    
+          "description": "Extension type"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ContactInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "firstName": {
           "type": "string",
-          "description": "For User extension type only. Extension user first name"                    
-        }, 
+          "description": "For User extension type only. Extension user first name"
+        },
         "lastName": {
           "type": "string",
-          "description": "For User extension type only. Extension user last name"                    
-        }, 
+          "description": "For User extension type only. Extension user last name"
+        },
         "company": {
           "type": "string",
-          "description": "Extension user company name"                    
-        }, 
+          "description": "Extension user company name"
+        },
         "email": {
           "type": "string",
-          "description": "Email of extension user"                    
-        }, 
+          "description": "Email of extension user"
+        },
         "businessPhone": {
           "type": "string",
-          "description": "Extension user contact phone number"                    
-        }, 
+          "description": "Extension user contact phone number"
+        },
         "businessAddress": {
           "$ref": "#/definitions/ContactAddressInfo",
-          "description": "Business address of extension user company"                    
+          "description": "Business address of extension user company"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ContactAddressInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "country": {
           "type": "string",
-          "description": "Country name of extension user company. Not returned for Address Book"                    
-        }, 
+          "description": "Country name of extension user company. Not returned for Address Book"
+        },
         "state": {
           "type": "string",
-          "description": "State/province name of extension user company"                    
-        }, 
+          "description": "State/province name of extension user company"
+        },
         "city": {
           "type": "string",
-          "description": "City name of extension user company"                    
-        }, 
+          "description": "City name of extension user company"
+        },
         "street": {
           "type": "string",
-          "description": "Street address of extension user company"                    
-        }, 
+          "description": "Street address of extension user company"
+        },
         "zip": {
           "type": "string",
-          "description": "Zip code of extension user company"                    
+          "description": "Zip code of extension user company"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "DepartmentInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a department extension"                    
-        }, 
+          "description": "Internal identifier of a department extension"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a department extension"                    
-        }, 
+          "description": "Canonical URI of a department extension"
+        },
         "extensionNumber": {
           "type": "string",
-          "description": "Number of a department extension"                    
+          "description": "Number of a department extension"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ExtensionPermissions": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "admin": {
           "$ref": "#/definitions/PermissionInfo",
-          "description": "Admin permission"                    
-        }, 
+          "description": "Admin permission"
+        },
         "internationalCalling": {
           "$ref": "#/definitions/PermissionInfo",
-          "description": "International Calling permission"                    
+          "description": "International Calling permission"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "PermissionInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "enabled": {
           "type": "boolean",
-          "description": "Specifies if a permission is enabled or not"                    
+          "description": "Specifies if a permission is enabled or not"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ProfileImageInfo": {
       "required":[
-        "uri"      
+        "uri"
       ],
-      "properties": { 
+      "properties": {
         "uri": {
           "type": "string",
-          "description": "Link to a profile image. If an image is not uploaded for an extension, only uri is returned"                    
-        }, 
+          "description": "Link to a profile image. If an image is not uploaded for an extension, only uri is returned"
+        },
         "etag": {
           "type": "string",
-          "description": "Identifier of an image"                    
-        }, 
+          "description": "Identifier of an image"
+        },
         "lastModified": {
           "type": "string",
           "format": "date-time",
-          "description": "The datetime when an image was last updated in ISO 8601 format, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "The datetime when an image was last updated in ISO 8601 format, for example 2016-03-10T18:07:52.534Z"
+        },
         "contentType": {
           "type": "string",
-          "description": "The type of an image"                    
-        }, 
+          "description": "The type of an image"
+        },
         "scales": {
           "type": "array",
           "items": {
             "type": "URIs"
           },
-          "description": "List of URIs to profile images in different dimensions"                    
+          "description": "List of URIs to profile images in different dimensions"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ReferenceInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "ref": {
           "type": "string",
-          "description": "Non-RC identifier of an extension"                    
-        }, 
+          "description": "Non-RC identifier of an extension"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["PartnerId","CustomerDirectoryId"],
-          "description": "Type of external identifier"                    
+          "description": "Type of external identifier"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "RegionalSettings": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "homeCountry": {
           "$ref": "#/definitions/CountryInfo",
-          "description": "Extension country information"                    
-        }, 
+          "description": "Extension country information"
+        },
         "timezone": {
           "$ref": "#/definitions/TimezoneInfo",
-          "description": "Extension timezone information"                    
-        }, 
+          "description": "Extension timezone information"
+        },
         "language": {
           "$ref": "#/definitions/LanguageInfo",
-          "description": "User interface language data"                    
-        }, 
+          "description": "User interface language data"
+        },
         "greetingLanguage": {
           "$ref": "#/definitions/GreetingLanguageInfo",
-          "description": "Information on language used for telephony greetings"                    
-        }, 
+          "description": "Information on language used for telephony greetings"
+        },
         "formattingLocale": {
           "$ref": "#/definitions/FormattingLocaleInfo",
-          "description": "Formatting language preferences for numbers, dates and currencies"                    
+          "description": "Formatting language preferences for numbers, dates and currencies"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "TimezoneInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a timezone"                    
-        }, 
+          "description": "Internal identifier of a timezone"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a timezone"                    
-        }, 
+          "description": "Canonical URI of a timezone"
+        },
         "name": {
           "type": "string",
-          "description": "Short name of a timezone"                    
-        }, 
+          "description": "Short name of a timezone"
+        },
         "description": {
           "type": "string",
-          "description": "Meaningful description of the timezone"                    
+          "description": "Meaningful description of the timezone"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "LanguageInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a language"                    
-        }, 
+          "description": "Internal identifier of a language"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a language"                    
-        }, 
+          "description": "Canonical URI of a language"
+        },
         "greeting": {
           "type": "boolean",
-          "description": "Indicates whether a language is available as greeting language"                    
-        }, 
+          "description": "Indicates whether a language is available as greeting language"
+        },
         "formattingLocale": {
           "type": "boolean",
-          "description": "Indicates whether a language is available as formatting locale"                    
-        }, 
+          "description": "Indicates whether a language is available as formatting locale"
+        },
         "localeCode": {
           "type": "string",
-          "description": "Localization code of a language"                    
-        }, 
+          "description": "Localization code of a language"
+        },
         "name": {
           "type": "string",
-          "description": "Official name of a language"                    
-        }, 
+          "description": "Official name of a language"
+        },
         "ui": {
           "type": "boolean",
-          "description": "Indicates whether a language is available as UI language"                    
+          "description": "Indicates whether a language is available as UI language"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "GreetingLanguageInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a greeting language"                    
-        }, 
+          "description": "Internal identifier of a greeting language"
+        },
         "localeCode": {
           "type": "string",
-          "description": "Localization code of a greeting language"                    
-        }, 
+          "description": "Localization code of a greeting language"
+        },
         "name": {
           "type": "string",
-          "description": "Official name of a greeting language"                    
+          "description": "Official name of a greeting language"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "FormattingLocaleInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a formatting language"                    
-        }, 
+          "description": "Internal identifier of a formatting language"
+        },
         "localeCode": {
           "type": "string",
-          "description": "Localization code of a formatting language"                    
-        }, 
+          "description": "Localization code of a formatting language"
+        },
         "name": {
           "type": "string",
-          "description": "Official name of a formatting language"                    
+          "description": "Official name of a formatting language"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ExtensionServiceFeatureInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "enabled": {
           "type": "boolean",
-          "description": "Feature status; shows feature availability for an extension"                    
-        }, 
+          "description": "Feature status; shows feature availability for an extension"
+        },
         "featureName": {
           "type": "string",
-          "description": "Feature name, see all available values in Service Feature List"                    
-        }, 
+          "description": "Feature name, see all available values in Service Feature List"
+        },
         "reason": {
           "type": "string",
-          "description": "Reason of limitation for a particular service feature. Returned only if the enabled parameter value is 'False', see Service Feature Limitations and Reasons. When retrieving service features for an extension, the reasons for the limitations, if any, are returned in response"                    
+          "description": "Reason of limitation for a particular service feature. Returned only if the enabled parameter value is 'False', see Service Feature Limitations and Reasons. When retrieving service features for an extension, the reasons for the limitations, if any, are returned in response"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ServiceFeatureLimitations": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "AccountTypeLimitation": {
           "type": "Principal account type limitation. Feature is not supported for account type",
-          "description": "Free Digital Line service feature is turned off on UBP tier"                    
-        }, 
+          "description": "Free Digital Line service feature is turned off on UBP tier"
+        },
         "ExtensionTypeLimitation": {
           "type": "Principal extension type limitation. Feature is not supported for particular extension type (built-in Product restriction)",
-          "description": "Announcement Only or Take Messages Only extension types that cannot send SMS, feature is disabled because of immutable extension type limitation and it is impossible to change the type of this extension"                    
-        }, 
+          "description": "Announcement Only or Take Messages Only extension types that cannot send SMS, feature is disabled because of immutable extension type limitation and it is impossible to change the type of this extension"
+        },
         "AccountLimitation": {
           "type": "Account limitation (service parameter setting at brand, tier or account level); can be changed only by RC Customer Support, or by upgrading to a different tier",
-          "description": "SMS can be turned off for a particular account/tier"                    
-        }, 
+          "description": "SMS can be turned off for a particular account/tier"
+        },
         "ExtensionLimitation": {
           "type": "Extension limitation, requiring chargeable action; can be changed by Account Administrator, requires chargeable action (except tier upgrades)",
-          "description": "For Free Digital Line (FreeDL) service feature, available only if there is at least one paid digital line on this extension"                    
-        }, 
+          "description": "For Free Digital Line (FreeDL) service feature, available only if there is at least one paid digital line on this extension"
+        },
         "InsufficientPermissions": {
           "type": "Extension limitation, resolution is not chargeable; can be changed by Account Administrator without extra charges",
-          "description": "International Calling is turned off using extension permissions"                    
+          "description": "International Calling is turned off using extension permissions"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ExtensionStatusInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "comment": {
           "type": "string",
-          "description": "A free-form user comment, describing the status change reason"                    
-        }, 
+          "description": "A free-form user comment, describing the status change reason"
+        },
         "reason": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Voluntarily","Involuntarily"],
-          "description": "Type of suspension"                    
+          "description": "Type of suspension"
         }
-      }    
+      }
     }
   ,
     "GetExtensionPhoneNumbersResponse": {
       "required":[
         "records",
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/PhoneNumberInfo"
           },
-          "description": "List of phone numbers"                    
-        }, 
+          "description": "List of phone numbers"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "PhoneNumberInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "integer",
-          "description": "Internal identifier of a phone number"                    
-        }, 
+          "description": "Internal identifier of a phone number"
+        },
         "country": {
           "$ref": "#/definitions/CountryInfo",
-          "description": "Brief information on a phone number country"                    
-        }, 
+          "description": "Brief information on a phone number country"
+        },
         "extension": {
           "$ref": "#/definitions/ExtensionInfo",
-          "description": "Information on the extension, to which the phone number is assigned. Returned only for the request of Account phone number list"                    
-        }, 
+          "description": "Information on the extension, to which the phone number is assigned. Returned only for the request of Account phone number list"
+        },
         "features": {
           "type": "Set of 'CallerId', 'SmsSender'",
-          "description": "Indicates if this phone number is enabled to appear as CallerId and/or to send outbound SMS from it. Returned only for the request of Extension phone number list"                    
-        }, 
+          "description": "Indicates if this phone number is enabled to appear as CallerId and/or to send outbound SMS from it. Returned only for the request of Extension phone number list"
+        },
         "location": {
           "type": "string",
-          "description": "Location (City, State). Filled for local US numbers"                    
-        }, 
+          "description": "Location (City, State). Filled for local US numbers"
+        },
         "paymentType": {
-          "type": "string", 
+          "type": "string",
           "enum": ["External","TollFree","Local"],
-          "description": "Payment type. 'External' is returned for forwarded numbers which are not terminated in the RingCentral phone system"                    
-        }, 
+          "description": "Payment type. 'External' is returned for forwarded numbers which are not terminated in the RingCentral phone system"
+        },
         "phoneNumber": {
           "type": "string",
-          "description": "Phone number"                    
-        }, 
+          "description": "Phone number"
+        },
         "status": {
           "type": "string",
-          "description": "Status of a phone number. If the value is 'Normal', the phone number is ready to be used. Otherwise it is an external number not yet ported to RingCentral"                    
-        }, 
+          "description": "Status of a phone number. If the value is 'Normal', the phone number is ready to be used. Otherwise it is an external number not yet ported to RingCentral"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["VoiceFax","FaxOnly","VoiceOnly"],
-          "description": "Phone number type"                    
-        }, 
+          "description": "Phone number type"
+        },
         "usageType": {
-          "type": "string", 
+          "type": "string",
           "enum": ["MainCompanyNumber","AdditionalCompanyNumber","CompanyNumber","DirectNumber","CompanyFaxNumber","ForwardedNumber"],
-          "description": "Usage type of the phone number"                    
+          "description": "Usage type of the phone number"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ExtensionInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of an extension"                    
-        }, 
+          "description": "Internal identifier of an extension"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of an extension"                    
-        }, 
+          "description": "Canonical URI of an extension"
+        },
         "extensionNumber": {
           "type": "string",
-          "description": "Number of department extension"                    
-        }, 
+          "description": "Number of department extension"
+        },
         "partnerId": {
           "type": "string",
-          "description": "For Partner Applications Internal identifier of an extension created by partner. The RingCentral supports the mapping of accounts and stores the corresponding account ID/extension ID for each partner ID of a client application. In request URIs partner IDs are accepted instead of regular RingCentral native IDs as path parameters using pid = XXX clause. Though in response URIs contain the corresponding account IDs and extension IDs. In all request and response bodies these values are reflected via partnerId attributes of account and extension"                    
+          "description": "For Partner Applications Internal identifier of an extension created by partner. The RingCentral supports the mapping of accounts and stores the corresponding account ID/extension ID for each partner ID of a client application. In request URIs partner IDs are accepted instead of regular RingCentral native IDs as path parameters using pid = XXX clause. Though in response URIs contain the corresponding account IDs and extension IDs. In all request and response bodies these values are reflected via partnerId attributes of account and extension"
         }
-      }    
+      }
     }
   ,
     "ExtensionActiveCallsResponse": {
       "required":[
         "records",
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/CallLogRecord"
           },
-          "description": "List of call log records"                    
-        }, 
+          "description": "List of call log records"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
   ,
     "ExtensionCallLogResponse": {
       "required":[
         "records",
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/CallLogRecord"
           },
-          "description": "List of call log records"                    
-        }, 
+          "description": "List of call log records"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "CallLogRecord": {
       "required":[
-        "legs"      
+        "legs"
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a cal log record"                    
-        }, 
+          "description": "Internal identifier of a cal log record"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a call log record"                    
-        }, 
+          "description": "Canonical URI of a call log record"
+        },
         "sessionId": {
           "type": "string",
-          "description": "Internal identifier of a call session"                    
-        }, 
+          "description": "Internal identifier of a call session"
+        },
         "from": {
           "$ref": "#/definitions/CallLogCallerInfo",
-          "description": "Caller information"                    
-        }, 
+          "description": "Caller information"
+        },
         "to": {
           "$ref": "#/definitions/CallLogCallerInfo",
-          "description": "Callee information"                    
-        }, 
+          "description": "Callee information"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Voice","Fax"],
-          "description": "Call type"                    
-        }, 
+          "description": "Call type"
+        },
         "direction": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Inbound","Outbound"],
-          "description": "Call direction"                    
-        }, 
+          "description": "Call direction"
+        },
         "action": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Unknown","Phone Call","Phone Login","Incoming Fax","Accept Call","FindMe","FollowMe","Outgoing Fax","Call Return","Calling Card","Ring Directly","RingOut Web","VoIP Call","RingOut PC","RingMe","Transfer","411 Info","Emergency","E911 Update","Support","RingOut Mobile"],
-          "description": "Action description of the call operation"                    
-        }, 
+          "description": "Action description of the call operation"
+        },
         "result": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Unknown","ResultInProgress","Missed","Call accepted","Voicemail","Rejected","Reply","Received","Receive Error","Fax on Demand","Partial Receive","Blocked","Call connected","No Answer","International Disabled","Busy","Send Error","Sent","No fax machine","ResultEmpty","Account","Suspended","Call Failed","Call Failure","Internal Error","IP Phone offline","Restricted Number","Wrong Number","Stopped","Hang up","Poor Line Quality","Partially Sent","International Disabled","International Restriction","Abandoned","Declined","Fax Receipt Error","Fax Send Error"],
-          "description": "Status description of the call operation"                    
-        }, 
+          "description": "Status description of the call operation"
+        },
         "startTime": {
           "type": "string",
           "format": "date-time",
-          "description": "The call start datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "The call start datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"
+        },
         "duration": {
           "type": "integer",
-          "description": "Call duration in seconds"                    
-        }, 
+          "description": "Call duration in seconds"
+        },
         "recording": {
           "$ref": "#/definitions/RecordingInfo",
-          "description": "Call recording data. Returned if the call is recorded, the withRecording parameter is set to 'True' in this case"                    
-        }, 
+          "description": "Call recording data. Returned if the call is recorded, the withRecording parameter is set to 'True' in this case"
+        },
         "lastModifiedTime": {
           "type": "string",
           "format": "date-time",
-          "description": "For 'Detailed' view only. The datetime when the call log record was modified in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "For 'Detailed' view only. The datetime when the call log record was modified in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"
+        },
         "transport": {
-          "type": "string", 
+          "type": "string",
           "enum": ["PSTN","VoIP"],
-          "description": "For 'Detailed' view only. Call transport"                    
-        }, 
+          "description": "For 'Detailed' view only. Call transport"
+        },
         "legs": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/CallLogRecordLegInfo"
           },
-          "description": "For 'Detailed' view only. Leg description"                    
+          "description": "For 'Detailed' view only. Leg description"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "CallLogCallerInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "phoneNumber": {
           "type": "string",
-          "description": "Phone number of a party. Usually it is a plain number including country and area code like 18661234567. But sometimes it could be returned from database with some formatting applied, for example (866)123-4567. This property is filled in all cases where parties communicate by means of global phone numbers, for example when calling to direct numbers or sending/receiving SMS"                    
-        }, 
+          "description": "Phone number of a party. Usually it is a plain number including country and area code like 18661234567. But sometimes it could be returned from database with some formatting applied, for example (866)123-4567. This property is filled in all cases where parties communicate by means of global phone numbers, for example when calling to direct numbers or sending/receiving SMS"
+        },
         "extensionNumber": {
           "type": "string",
-          "description": "Extension short number (usually 3 or 4 digits). This property is filled when parties communicate by means of short internal numbers, for example when calling to other extension or sending/receiving Company Pager message"                    
-        }, 
+          "description": "Extension short number (usually 3 or 4 digits). This property is filled when parties communicate by means of short internal numbers, for example when calling to other extension or sending/receiving Company Pager message"
+        },
         "location": {
           "type": "string",
-          "description": "Contains party location (city, state) if one can be determined from phoneNumber. This property is filled only when phoneNumber is not empty and server can calculate location information from it (for example, this information is unavailable for US toll-free numbers)"                    
-        }, 
+          "description": "Contains party location (city, state) if one can be determined from phoneNumber. This property is filled only when phoneNumber is not empty and server can calculate location information from it (for example, this information is unavailable for US toll-free numbers)"
+        },
         "name": {
           "type": "string",
-          "description": "Symbolic name associated with a party. If the phone does not belong to the known extension, only the location is returned, the name is not determined then"                    
+          "description": "Symbolic name associated with a party. If the phone does not belong to the known extension, only the location is returned, the name is not determined then"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "CallLogRecordLegInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "action": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Unknown","Phone Call","Phone Login","Incoming Fax","Accept Call","FindMe","FollowMe","Outgoing Fax","Call Return","Calling Card","Ring Directly","RingOut Web","VoIP Call","RingOut PC","RingMe","Transfer","411 Info","Emergency","E911 Update","Support","RingOut Mobile"],
-          "description": "Action description of the call operation"                    
-        }, 
+          "description": "Action description of the call operation"
+        },
         "direction": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Inbound","Outbound"],
-          "description": "Call direction"                    
-        }, 
+          "description": "Call direction"
+        },
         "duration": {
           "type": "integer",
-          "description": "Call duration in seconds"                    
-        }, 
+          "description": "Call duration in seconds"
+        },
         "extension": {
           "$ref": "#/definitions/ExtensionInfoCallLog",
-          "description": "Information on extension"                    
-        }, 
+          "description": "Information on extension"
+        },
         "legType": {
           "type": "string",
-          "description": "Leg type"                    
-        }, 
+          "description": "Leg type"
+        },
         "startTime": {
           "type": "string",
           "format": "date-time",
-          "description": "The call start datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "The call start datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Voice","Fax"],
-          "description": "Call type"                    
-        }, 
+          "description": "Call type"
+        },
         "result": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Unknown","ResultInProgress","Missed","Call accepted","Voicemail","Rejected","Reply","Received","Receive Error","Fax on Demand","Partial Receive","Blocked","Call connected","No Answer","International Disabled","Busy","Send Error","Sent","No fax machine","ResultEmpty","Account","Suspended","Call Failed","Call Failure","Internal Error","IP Phone offline","Restricted Number","Wrong Number","Stopped","Hang up","Poor Line Quality","Partially Sent","International Disabled","International Restriction","Abandoned","Declined","Fax Receipt Error","Fax Send Error"],
-          "description": "Status description of the call operation"                    
-        }, 
+          "description": "Status description of the call operation"
+        },
         "from": {
           "$ref": "#/definitions/CallLogCallerInfo",
-          "description": "Caller information"                    
-        }, 
+          "description": "Caller information"
+        },
         "to": {
           "$ref": "#/definitions/CallLogCallerInfo",
-          "description": "Callee information"                    
-        }, 
+          "description": "Callee information"
+        },
         "transport": {
-          "type": "string", 
+          "type": "string",
           "enum": ["PSTN","VoIP"],
-          "description": "Call transport"                    
-        }, 
+          "description": "Call transport"
+        },
         "recording": {
           "$ref": "#/definitions/RecordingInfo",
-          "description": "Call recording data. Returned if the call is recorded"                    
+          "description": "Call recording data. Returned if the call is recorded"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "RecordingInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "integer",
-          "description": "Internal identifier of the call recording"                    
-        }, 
+          "description": "Internal identifier of the call recording"
+        },
         "uri": {
           "type": "string",
-          "description": "Link to the call recording metadata resource"                    
-        }, 
+          "description": "Link to the call recording metadata resource"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Automatic","OnDemand"],
-          "description": "Indicates recording mode used"                    
-        }, 
+          "description": "Indicates recording mode used"
+        },
         "contentUri": {
           "type": "string",
-          "description": "Link to the call recording binary content"                    
+          "description": "Link to the call recording binary content"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ExtensionInfoCallLog": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "integer",
-          "description": "Internal identifier of an extension"                    
-        }, 
+          "description": "Internal identifier of an extension"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of an extension"                    
+          "description": "Canonical URI of an extension"
         }
-      }    
+      }
     }
   ,
     "GetExtensionCallLogRecordResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a cal log record"                    
-        }, 
+          "description": "Internal identifier of a cal log record"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a call log record"                    
-        }, 
+          "description": "Canonical URI of a call log record"
+        },
         "sessionId": {
           "type": "string",
-          "description": "Internal identifier of a call session"                    
-        }, 
+          "description": "Internal identifier of a call session"
+        },
         "from": {
           "$ref": "#/definitions/CallLogCallerInfo",
-          "description": "Caller information"                    
-        }, 
+          "description": "Caller information"
+        },
         "to": {
           "$ref": "#/definitions/CallLogCallerInfo",
-          "description": "Callee information"                    
-        }, 
+          "description": "Callee information"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Voice","Fax"],
-          "description": "Call type"                    
-        }, 
+          "description": "Call type"
+        },
         "direction": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Inbound","Outbound"],
-          "description": "Call direction"                    
-        }, 
+          "description": "Call direction"
+        },
         "action": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Unknown","Phone Call","Phone Login","Incoming Fax","Accept Call","FindMe","FollowMe","Outgoing Fax","Call Return","Calling Card","Ring Directly","RingOut Web","VoIP Call","RingOut PC","RingMe","Transfer","411 Info","Emergency","E911 Update","Support","RingOut Mobile"],
-          "description": "Action description of the call operation"                    
-        }, 
+          "description": "Action description of the call operation"
+        },
         "result": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Unknown","ResultInProgress","Missed","Call accepted","Voicemail","Rejected","Reply","Received","Receive Error","Fax on Demand","Partial Receive","Blocked","Call connected","No Answer","International Disabled","Busy","Send Error","Sent","No fax machine","ResultEmpty","Account","Suspended","Call Failed","Call Failure","Internal Error","IP Phone offline","Restricted Number","Wrong Number","Stopped","Hang up","Poor Line Quality","Partially Sent","International Disabled","International Restriction","Abandoned","Declined","Fax Receipt Error","Fax Send Error"],
-          "description": "Status description of the call operation"                    
-        }, 
+          "description": "Status description of the call operation"
+        },
         "startTime": {
           "type": "string",
           "format": "date-time",
-          "description": "The call start datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "The call start datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"
+        },
         "duration": {
           "type": "integer",
-          "description": "Call duration in seconds"                    
-        }, 
+          "description": "Call duration in seconds"
+        },
         "recording": {
           "$ref": "#/definitions/RecordingInfo",
-          "description": "Call recording data. Returned if the call is recorded"                    
+          "description": "Call recording data. Returned if the call is recorded"
         }
-      }    
+      }
     }
   ,
     "GetCallRecordingResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "integer",
-          "description": "Internal identifier of the call recording"                    
-        }, 
+          "description": "Internal identifier of the call recording"
+        },
         "contentUri": {
           "type": "string",
-          "description": "Link to the call recording binary content"                    
-        }, 
+          "description": "Link to the call recording binary content"
+        },
         "contentType": {
           "type": "string",
-          "description": "Call recording file format. Supported format is audio/x-wav"                    
-        }, 
+          "description": "Call recording file format. Supported format is audio/x-wav"
+        },
         "duration": {
           "type": "integer",
-          "description": "Recorded call duration"                    
+          "description": "Recorded call duration"
         }
-      }    
+      }
     }
   ,
     "GetExtensionForwardingNumberListResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/ForwardingNumberInfo"
           },
-          "description": "List of forwarding phone numbers"                    
-        }, 
+          "description": "List of forwarding phone numbers"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "ForwardingNumberInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a forwarding/call flip phone number"                    
-        }, 
+          "description": "Internal identifier of a forwarding/call flip phone number"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a forwarding/call flip phone number"                    
-        }, 
+          "description": "Canonical URI of a forwarding/call flip phone number"
+        },
         "phoneNumber": {
           "type": "string",
-          "description": "Forwarding/Call flip phone number"                    
-        }, 
+          "description": "Forwarding/Call flip phone number"
+        },
         "label": {
           "type": "string",
-          "description": "Forwarding/Call flip number title"                    
-        }, 
+          "description": "Forwarding/Call flip number title"
+        },
         "features": {
-          "type": "string", 
+          "type": "string",
           "enum": ["CallFlip","CallForwarding"],
-          "description": "Type of option this phone number is used for. Multiple values are accepted"                    
-        }, 
+          "description": "Type of option this phone number is used for. Multiple values are accepted"
+        },
         "flipNumber": {
           "type": "integer",
-          "description": "Number assigned to the call flip phone number, corresponds to the shortcut dial number"                    
+          "description": "Number assigned to the call flip phone number, corresponds to the shortcut dial number"
         }
-      }    
+      }
     }
   ,
     "GetMessageList": {
       "required":[
         "records",
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/GetMessageInfoResponse"
           },
-          "description": "List of records with message information"                    
-        }, 
+          "description": "List of records with message information"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
   ,
     "GetMessageInfoResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a message"                    
-        }, 
+          "description": "Internal identifier of a message"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a message"                    
-        }, 
+          "description": "Canonical URI of a message"
+        },
         "attachments": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/MessageAttachmentInfo"
           },
-          "description": "The list of message attachments"                    
-        }, 
+          "description": "The list of message attachments"
+        },
         "availability": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Alive","Deleted","Purged"],
-          "description": "Message availability status. Message in 'Deleted' state is still preserved with all its attachments and can be restored. 'Purged' means that all attachments are already deleted and the message itself is about to be physically deleted shortly"                    
-        }, 
+          "description": "Message availability status. Message in 'Deleted' state is still preserved with all its attachments and can be restored. 'Purged' means that all attachments are already deleted and the message itself is about to be physically deleted shortly"
+        },
         "conversationId": {
           "type": "integer",
-          "description": "SMS and Pager only. Identifier of the conversation the message belongs to"                    
-        }, 
+          "description": "SMS and Pager only. Identifier of the conversation the message belongs to"
+        },
         "creationTime": {
           "type": "string",
           "format": "date-time",
-          "description": "Message creation datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "Message creation datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"
+        },
         "deliveryErrorCode": {
           "type": "string",
-          "description": "SMS only. Delivery error code returned by gateway"                    
-        }, 
+          "description": "SMS only. Delivery error code returned by gateway"
+        },
         "direction": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Inbound","Outbound"],
-          "description": "Message direction. Note that for some message types not all directions are allowed. For example voicemail messages can be only inbound"                    
-        }, 
+          "description": "Message direction. Note that for some message types not all directions are allowed. For example voicemail messages can be only inbound"
+        },
         "faxPageCount": {
           "type": "integer",
-          "description": "Fax only. Page count in fax message"                    
-        }, 
+          "description": "Fax only. Page count in fax message"
+        },
         "faxResolution": {
-          "type": "string", 
+          "type": "string",
           "enum": ["High","Low"],
-          "description": "Fax only. Resolution of fax message. ('High' for black and white image scanned at 200 dpi, 'Low' for black and white image scanned at 100 dpi)"                    
-        }, 
+          "description": "Fax only. Resolution of fax message. ('High' for black and white image scanned at 200 dpi, 'Low' for black and white image scanned at 100 dpi)"
+        },
         "from": {
           "$ref": "#/definitions/MessageStoreCallerInfoResponse",
-          "description": "Sender information"                    
-        }, 
+          "description": "Sender information"
+        },
         "lastModifiedTime": {
           "type": "string",
           "format": "date-time",
-          "description": "The datetime when the message was modified on server in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "The datetime when the message was modified on server in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"
+        },
         "messageStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Queued","Sent","Delivered","DeliveryFailed","SendingFailed","Received"],
-          "description": "Message status. Different message types may have different allowed status values.For outbound faxes the aggregated message status is returned: If status for at least one recipient is 'Queued', then 'Queued' value is returned If status for at least one recipient is 'SendingFailed', then 'SendingFailed' value is returned In other cases Sent status is returned"                    
-        }, 
+          "description": "Message status. Different message types may have different allowed status values.For outbound faxes the aggregated message status is returned: If status for at least one recipient is 'Queued', then 'Queued' value is returned If status for at least one recipient is 'SendingFailed', then 'SendingFailed' value is returned In other cases Sent status is returned"
+        },
         "pgToDepartment": {
           "type": "boolean",
-          "description": "Pager only True if at least one of the message recipients is Department extension"                    
-        }, 
+          "description": "Pager only True if at least one of the message recipients is Department extension"
+        },
         "priority": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Normal","High"],
-          "description": "Message priority"                    
-        }, 
+          "description": "Message priority"
+        },
         "readStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Read","Unread"],
-          "description": "Message read status"                    
-        }, 
+          "description": "Message read status"
+        },
         "smsDeliveryTime": {
           "type": "string",
           "format": "date-time",
-          "description": "SMS only. The datetime when outbound SMS was delivered to recipient's handset in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. It is filled only if the carrier sends a delivery receipt to RingCentral"                    
-        }, 
+          "description": "SMS only. The datetime when outbound SMS was delivered to recipient's handset in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. It is filled only if the carrier sends a delivery receipt to RingCentral"
+        },
         "smsSendingAttemptsCount": {
           "type": "integer",
-          "description": "SMS only. Number of attempts made to send an outbound SMS to the gateway (if gateway is temporary unavailable)"                    
-        }, 
+          "description": "SMS only. Number of attempts made to send an outbound SMS to the gateway (if gateway is temporary unavailable)"
+        },
         "subject": {
           "type": "string",
-          "description": "Message subject. For SMS and Pager messages it replicates message text which is also returned as an attachment"                    
-        }, 
+          "description": "Message subject. For SMS and Pager messages it replicates message text which is also returned as an attachment"
+        },
         "to": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/MessageStoreCallerInfoResponse"
           },
-          "description": "Recipient information"                    
-        }, 
+          "description": "Recipient information"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Fax","SMS","VoiceMail","Pager","Text"],
-          "description": "Message type"                    
-        }, 
+          "description": "Message type"
+        },
         "vmTranscriptionStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["NotAvailable","InProgress","TimedOut","Completed","CompletedPartially","Failed"],
-          "description": "Voicemail only. Status of voicemail to text transcription. If VoicemailToText feature is not activated for account, the 'NotAvailable' value is returned"                    
+          "description": "Voicemail only. Status of voicemail to text transcription. If VoicemailToText feature is not activated for account, the 'NotAvailable' value is returned"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "MessageAttachmentInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a message attachment"                    
-        }, 
+          "description": "Internal identifier of a message attachment"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a message attachment"                    
-        }, 
+          "description": "Canonical URI of a message attachment"
+        },
         "type": {
-          "type": "string", 
+          "type": "string",
           "enum": ["AudioRecording","AudioTranscription","Text","SourceDocument","RenderedDocument"],
-          "description": "Type of message attachment"                    
-        }, 
+          "description": "Type of message attachment"
+        },
         "contentType": {
           "type": "string",
-          "description": "MIME type for a given attachment, for instance 'audio/wav'"                    
-        }, 
+          "description": "MIME type for a given attachment, for instance 'audio/wav'"
+        },
         "vmDuration": {
           "type": "integer",
-          "description": "Voicemail only Duration of the voicemail in seconds"                    
+          "description": "Voicemail only Duration of the voicemail in seconds"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "MessageStoreCallerInfoResponse": {
       "required":[
-        "extensionNumber"      
+        "extensionNumber"
       ],
-      "properties": { 
+      "properties": {
         "extensionNumber": {
           "type": "string",
-          "description": "Extension short number (usually 3 or 4 digits). This property is filled when parties communicate by means of short internal numbers, for example when calling to other extension or sending/receiving Company Pager message"                    
-        }, 
+          "description": "Extension short number (usually 3 or 4 digits). This property is filled when parties communicate by means of short internal numbers, for example when calling to other extension or sending/receiving Company Pager message"
+        },
         "location": {
           "type": "string",
-          "description": "Contains party location (city, state) if one can be determined from phoneNumber. This property is filled only when phoneNumber is not empty and server can calculate location information from it (for example, this information is unavailable for US toll-free numbers)"                    
-        }, 
+          "description": "Contains party location (city, state) if one can be determined from phoneNumber. This property is filled only when phoneNumber is not empty and server can calculate location information from it (for example, this information is unavailable for US toll-free numbers)"
+        },
         "messageStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Queued","Sent","Delivered","DeliveryFailed","SendingFailed","Received"],
-          "description": "Status of a message. Returned for outbound fax messages only"                    
-        }, 
+          "description": "Status of a message. Returned for outbound fax messages only"
+        },
         "faxErrorCode": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Undefined","NoFaxSendPermission","NoInternationalPermission","NoFaxMachine","OutgoingCallError","RenderingFailed","TooManyPages","ReturnToDBQueue","NoCallTime","WrongNumber","ProhibitedNumber","InternalError","FaxSendingProhibited","ThePhoneIsBlacklisted","UserNotFound","ConvertError","DBGeneralError","SkypeBillingFailed","AccountSuspended","ProhibitedDestination","InternationalDisabled"],
-          "description": "Fax only. Error code returned in case of fax sending failure. Returned if messageStatus value is 'SendingFailed'"                    
-        }, 
+          "description": "Fax only. Error code returned in case of fax sending failure. Returned if messageStatus value is 'SendingFailed'"
+        },
         "name": {
           "type": "string",
-          "description": "Symbolic name associated with a party. If the phone does not belong to the known extension, only the location is returned, the name is not determined then"                    
-        }, 
+          "description": "Symbolic name associated with a party. If the phone does not belong to the known extension, only the location is returned, the name is not determined then"
+        },
         "phoneNumber": {
           "type": "string",
-          "description": "Phone number of a party. Usually it is a plain number including country and area code like 18661234567. But sometimes it could be returned from database with some formatting applied, for example (866)123-4567. This property is filled in all cases where parties communicate by means of global phone numbers, for example when calling to direct numbers or sending/receiving SMS"                    
+          "description": "Phone number of a party. Usually it is a plain number including country and area code like 18661234567. But sometimes it could be returned from database with some formatting applied, for example (866)123-4567. This property is filled in all cases where parties communicate by means of global phone numbers, for example when calling to direct numbers or sending/receiving SMS"
         }
-      }    
+      }
     }
   ,
     "GetPresenceInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a presence info resource"                    
-        }, 
+          "description": "Canonical URI of a presence info resource"
+        },
         "allowSeeMyPresence": {
           "type": "boolean",
-          "description": "If 'True' enables other extensions to see the extension presence status"                    
-        }, 
+          "description": "If 'True' enables other extensions to see the extension presence status"
+        },
         "dndStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["TakeAllCalls","DoNotAcceptAnyCalls","DoNotAcceptDepartmentCalls","TakeDepartmentCallsOnly"],
-          "description": "Extended DnD (Do not Disturb) status. Cannot be set for Department/Announcement/Voicemail (Take Messages Only)/Fax User/Shared Lines Group/Paging Only Group/IVR Menu/Application Extension/Park Location extensions. The 'DoNotAcceptDepartmentCalls' and 'TakeDepartmentCallsOnly' values are applicable only for extensions - members of a Department; if these values are set for department outsiders, the 400 Bad Request error code is returned. The 'TakeDepartmentCallsOnly' status can be set through the old RingCentral user interface and is available for some migrated accounts only."                    
-        }, 
+          "description": "Extended DnD (Do not Disturb) status. Cannot be set for Department/Announcement/Voicemail (Take Messages Only)/Fax User/Shared Lines Group/Paging Only Group/IVR Menu/Application Extension/Park Location extensions. The 'DoNotAcceptDepartmentCalls' and 'TakeDepartmentCallsOnly' values are applicable only for extensions - members of a Department; if these values are set for department outsiders, the 400 Bad Request error code is returned. The 'TakeDepartmentCallsOnly' status can be set through the old RingCentral user interface and is available for some migrated accounts only."
+        },
         "extension": {
           "$ref": "#/definitions/GetPresenceExtensionInfo",
-          "description": "Information on extension, for which this presence data is returned"                    
-        }, 
+          "description": "Information on extension, for which this presence data is returned"
+        },
         "message": {
           "type": "string",
-          "description": "Custom status message (as previously published by user)"                    
-        }, 
+          "description": "Custom status message (as previously published by user)"
+        },
         "pickUpCallsOnHold": {
           "type": "boolean",
-          "description": "If 'True' enables the extension user to pick up a monitored line on hold"                    
-        }, 
+          "description": "If 'True' enables the extension user to pick up a monitored line on hold"
+        },
         "presenceStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Offline","Busy","Available"],
-          "description": "Aggregated presence status, calculated from a number of sources"                    
-        }, 
+          "description": "Aggregated presence status, calculated from a number of sources"
+        },
         "ringOnMonitoredCall": {
           "type": "boolean",
-          "description": "If 'True' enables to ring extension phone, if any user monitored by this extension is ringing"                    
-        }, 
+          "description": "If 'True' enables to ring extension phone, if any user monitored by this extension is ringing"
+        },
         "telephonyStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["NoCall","CallConnected","Ringing","OnHold","ParkedCall"],
-          "description": "Telephony presence status"                    
-        }, 
+          "description": "Telephony presence status"
+        },
         "userStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Offline","Busy","Available"],
-          "description": "User-defined presence status (as previously published by the user)"                    
+          "description": "User-defined presence status (as previously published by the user)"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "GetPresenceExtensionInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of an extension"                    
-        }, 
+          "description": "Internal identifier of an extension"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of an extension"                    
-        }, 
+          "description": "Canonical URI of an extension"
+        },
         "extensionNumber": {
           "type": "string",
-          "description": "Extension number (usually 3 or 4 digits)"                    
+          "description": "Extension number (usually 3 or 4 digits)"
         }
-      }    
+      }
     }
   ,
     "GetRingOutStatusResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a RingOut call"                    
-        }, 
+          "description": "Internal identifier of a RingOut call"
+        },
         "status": {
           "$ref": "#/definitions/RingOutStatusInfo",
-          "description": "RingOut status information"                    
+          "description": "RingOut status information"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "RingOutStatusInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "callStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Invalid","Success","InProgress","Busy","NoAnswer","Rejected","GenericError","Finished","InternationalDisabled","DestinationBlocked","NotEnoughFunds","NoSuchUser"],
-          "description": "Status of a call"                    
-        }, 
+          "description": "Status of a call"
+        },
         "callerStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Invalid","Success","InProgress","Busy","NoAnswer","Rejected","GenericError","Finished","InternationalDisabled","DestinationBlocked","NotEnoughFunds","NoSuchUser"],
-          "description": "Status of a calling party"                    
-        }, 
+          "description": "Status of a calling party"
+        },
         "calleeStatus": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Invalid","Success","InProgress","Busy","NoAnswer","Rejected","GenericError","Finished","InternationalDisabled","DestinationBlocked","NotEnoughFunds","NoSuchUser"],
-          "description": "Status of a called party"                    
+          "description": "Status of a called party"
         }
-      }    
+      }
     }
   ,
     "GetCountryListResponse": {
       "required":[
         "records",
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/GetCountryInfoDictionaryResponse"
           },
-          "description": "List of countries with the country data"                    
-        }, 
+          "description": "List of countries with the country data"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
   ,
     "GetCountryInfoDictionaryResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a country"                    
-        }, 
+          "description": "Internal identifier of a country"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a country"                    
-        }, 
+          "description": "Canonical URI of a country"
+        },
         "callingCode": {
           "type": "string",
-          "description": "Country calling code defined by ITU-T recommendations E.123 and E.164, see Calling Codes"                    
-        }, 
+          "description": "Country calling code defined by ITU-T recommendations E.123 and E.164, see Calling Codes"
+        },
         "emergencyCalling": {
           "type": "boolean",
-          "description": "Emergency calling feature availability/emergency address requirement indicator"                    
-        }, 
+          "description": "Emergency calling feature availability/emergency address requirement indicator"
+        },
         "isoCode": {
           "type": "string",
-          "description": "Country code according to the ISO standard, see ISO 3166"                    
-        }, 
+          "description": "Country code according to the ISO standard, see ISO 3166"
+        },
         "name": {
           "type": "string",
-          "description": "Official name of a country"                    
-        }, 
+          "description": "Official name of a country"
+        },
         "numberSelling": {
           "type": "boolean",
-          "description": "Determines whether phone numbers are available for a country"                    
-        }, 
+          "description": "Determines whether phone numbers are available for a country"
+        },
         "loginAllowed": {
           "type": "boolean",
-          "description": "Specifies whether login with the phone numbers of this country is enabled or not"                    
+          "description": "Specifies whether login with the phone numbers of this country is enabled or not"
         }
-      }    
+      }
     }
   ,
     "GetLocationListResponse": {
       "required":[
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/LocationInfo"
           },
-          "description": "List of locations"                    
-        }, 
+          "description": "List of locations"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "LocationInfo": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a location"                    
-        }, 
+          "description": "Canonical URI of a location"
+        },
         "areaCode": {
           "type": "string",
-          "description": "Area code of the location"                    
-        }, 
+          "description": "Area code of the location"
+        },
         "city": {
           "type": "string",
-          "description": "Official name of the city, belonging to the certain state"                    
-        }, 
+          "description": "Official name of the city, belonging to the certain state"
+        },
         "npa": {
           "type": "string",
-          "description": "Area code of the location (3-digit usually), according to the NANP number format, that can be summarized as NPA-NXX-xxxx and covers Canada, the United States, parts of the Caribbean Sea, and some Atlantic and Pacific islands. See for details North American Numbering Plan"                    
-        }, 
+          "description": "Area code of the location (3-digit usually), according to the NANP number format, that can be summarized as NPA-NXX-xxxx and covers Canada, the United States, parts of the Caribbean Sea, and some Atlantic and Pacific islands. See for details North American Numbering Plan"
+        },
         "nxx": {
           "type": "string",
-          "description": "Central office code of the location, according to the NANP number format, that can be summarized as NPA-NXX-xxxx and covers Canada, the United States, parts of the Caribbean Sea, and some Atlantic and Pacific islands. See for details North American Numbering Plan"                    
-        }, 
+          "description": "Central office code of the location, according to the NANP number format, that can be summarized as NPA-NXX-xxxx and covers Canada, the United States, parts of the Caribbean Sea, and some Atlantic and Pacific islands. See for details North American Numbering Plan"
+        },
         "state": {
           "type": "string",
-          "description": "ID and URI of the state this location belongs to, see State Info"                    
+          "description": "ID and URI of the state this location belongs to, see State Info"
         }
-      }    
+      }
     }
   ,
     "GetStateListResponse": {
       "required":[
         "records",
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/GetStateInfoResponse"
           },
-          "description": "List of states"                    
-        }, 
+          "description": "List of states"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
   ,
     "GetStateInfoResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a state"                    
-        }, 
+          "description": "Internal identifier of a state"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a state"                    
-        }, 
+          "description": "Canonical URI of a state"
+        },
         "country": {
           "$ref": "#/definitions/GetCountryInfoState",
-          "description": "Information on a country the state belongs to"                    
-        }, 
+          "description": "Information on a country the state belongs to"
+        },
         "isoCode": {
           "type": "string",
-          "description": "Short code for a state (2-letter usually)"                    
-        }, 
+          "description": "Short code for a state (2-letter usually)"
+        },
         "name": {
           "type": "string",
-          "description": "Official name of a state"                    
+          "description": "Official name of a state"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "GetCountryInfoState": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a state"                    
-        }, 
+          "description": "Internal identifier of a state"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a state"                    
+          "description": "Canonical URI of a state"
         }
-      }    
+      }
     }
   ,
     "GetTimezoneListResponse": {
       "required":[
         "records",
         "navigation",
-        "paging"      
+        "paging"
       ],
-      "properties": { 
+      "properties": {
         "records": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/GetTimezoneInfoResponse"
           },
-          "description": "List of timezones"                    
-        }, 
+          "description": "List of timezones"
+        },
         "navigation": {
           "$ref": "#/definitions/NavigationInfo",
-          "description": "Information on navigation"                    
-        }, 
+          "description": "Information on navigation"
+        },
         "paging": {
           "$ref": "#/definitions/PagingInfo",
-          "description": "Information on paging"                    
+          "description": "Information on paging"
         }
-      }    
+      }
     }
   ,
     "GetTimezoneInfoResponse": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a timezone"                    
-        }, 
+          "description": "Internal identifier of a timezone"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of the timezone"                    
-        }, 
+          "description": "Canonical URI of the timezone"
+        },
         "name": {
           "type": "string",
-          "description": "Short name of the timezone"                    
-        }, 
+          "description": "Short name of the timezone"
+        },
         "description": {
           "type": "string",
-          "description": "Description of the timezone"                    
+          "description": "Description of the timezone"
         }
-      }    
+      }
     }
   ,
     "GetSubscriptionInfoResponse": {
       "required":[
-        "deliveryMode"      
+        "deliveryMode"
       ],
-      "properties": { 
+      "properties": {
         "id": {
           "type": "string",
-          "description": "Internal identifier of a subscription"                    
-        }, 
+          "description": "Internal identifier of a subscription"
+        },
         "uri": {
           "type": "string",
-          "description": "Canonical URI of a subscription"                    
-        }, 
+          "description": "Canonical URI of a subscription"
+        },
         "eventFilters": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "description": "Collection of URIs to API resources (message-store/presence/detailed presence)"                    
-        }, 
+          "description": "Collection of URIs to API resources (message-store/presence/detailed presence)"
+        },
         "expirationTime": {
           "type": "string",
           "format": "date-time",
-          "description": "Subscription expiration datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "Subscription expiration datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"
+        },
         "expiresIn": {
           "type": "integer",
-          "description": "Subscription lifetime in seconds. The default value is 900"                    
-        }, 
+          "description": "Subscription lifetime in seconds. The default value is 900"
+        },
         "status": {
-          "type": "string", 
+          "type": "string",
           "enum": ["Active","Suspended"],
-          "description": "Subscription status"                    
-        }, 
+          "description": "Subscription status"
+        },
         "creationTime": {
           "type": "string",
           "format": "date-time",
-          "description": "Subscription creation datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"                    
-        }, 
+          "description": "Subscription creation datetime in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z"
+        },
         "deliveryMode": {
           "$ref": "#/definitions/NotificationDeliveryMode",
-          "description": "Delivery mode data"                    
+          "description": "Delivery mode data"
         }
-      }    
+      }
     }
-  ,    
-    
+  ,
+
     "NotificationDeliveryMode": {
-      "required":[      
+      "required":[
       ],
-      "properties": { 
+      "properties": {
         "transportType": {
-          "type": "string", 
+          "type": "string",
           "enum": ["PubNub","APNS","PubNub/APNS/VoIP"],
-          "description": "Notifications transportation provider name. 'APNS' (Apple Push Notifications Service)"                    
-        }, 
+          "description": "Notifications transportation provider name. 'APNS' (Apple Push Notifications Service)"
+        },
         "encryption": {
           "type": "boolean",
-          "description": "Optional parameter. Specifies if the message will be encrypted or not. For APNS transport type the value is always  false "                    
-        }, 
+          "description": "Optional parameter. Specifies if the message will be encrypted or not. For APNS transport type the value is always  false "
+        },
         "address": {
           "type": "string",
-          "description": "PubNub channel name. For APNS transport type - internal identifier of a device  device_token "                    
-        }, 
+          "description": "PubNub channel name. For APNS transport type - internal identifier of a device  device_token "
+        },
         "subscriberKey": {
           "type": "string",
-          "description": "PubNub subscriber credentials required to subscribe to the channel"                    
-        }, 
+          "description": "PubNub subscriber credentials required to subscribe to the channel"
+        },
         "secretKey": {
           "type": "string",
-          "description": "PubNub subscriber credentials required to subscribe to the channel. Optional (for PubNub transport type only)"                    
-        }, 
+          "description": "PubNub subscriber credentials required to subscribe to the channel. Optional (for PubNub transport type only)"
+        },
         "encryptionAlgorithm": {
           "type": "string",
-          "description": "Encryption algorithm 'AES' (for PubNub transport type only)"                    
-        }, 
+          "description": "Encryption algorithm 'AES' (for PubNub transport type only)"
+        },
         "encryptionKey": {
           "type": "string",
-          "description": "Key for notification message decryption (for PubNub transport type only)"                    
+          "description": "Key for notification message decryption (for PubNub transport type only)"
         }
-      }    
+      }
     }
-  
+
   }
 }
-  
