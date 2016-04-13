@@ -1259,6 +1259,7 @@
             {
               "name": "conversationId",
               "type": "integer",
+              "format": "int64",
               "in": "query",
               "description": "Specifies the conversation identifier for the resulting messages",
               "required": false
@@ -1490,6 +1491,7 @@
             {
               "name": "conversationId",
               "type": "integer",
+              "format": "int64",
               "in": "query",
               "description": "Internal identifier of a message thread",
               "required": false
@@ -3803,6 +3805,7 @@
         },
         "conversationId": {
           "type": "integer",
+          "format": "int64",
           "description": "SMS and Pager only. Identifier of the conversation the message belongs to"
         },
         "creationTime": {
