@@ -3041,7 +3041,7 @@
         "scales": {
           "type": "array",
           "items": {
-            "type": "URIs"
+            "type": "string"
           },
           "description": "List of URIs to profile images in different dimensions"
         }
