@@ -750,7 +750,8 @@
             },
             {
               "name": "scaleSize",
-              "type": "'90x90' | '195'x'195' | '584'x'584'",
+              "type": "string",
+              "format": "'90x90' | '195'x'195' | '584'x'584'",
               "in": "path",
               "description": "Dimensions of a profile image which will be returned in response. If this path parameter is not specified in request URI then",
               "required": true
