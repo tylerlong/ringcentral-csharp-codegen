@@ -15,7 +15,10 @@ sudo pip install fabric
 
 ## commands
 
-fab models
+```
+fab basic
+fab advanced
+```
 
 
 ## todo

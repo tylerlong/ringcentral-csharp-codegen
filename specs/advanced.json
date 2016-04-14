@@ -4587,7 +4587,8 @@
           "description": "The datetime to send fax at, in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. If time is not specified, the fax will be send immediately"
         },
         "coverIndex": {
-          "type": "integer (0-16)",
+          "type": "integer",
+          "format": "0-16",
           "description": "Optional. Cover page index. If not specified, the default cover page which is configured in  Outbound Fax Settings  is attached. See also 'Available Cover Pages' table below"
         },
         "coverPageText": {
@@ -5627,35 +5628,14 @@
         },
         "reason": {
           "type": "string",
+          "enum": [
+            "AccountTypeLimitation",
+            "ExtensionTypeLimitation",
+            "AccountLimitation",
+            "ExtensionLimitation",
+            "InsufficientPermissions"
+          ],
           "description": "Reason of limitation for a particular service feature. Returned only if the enabled parameter value is 'False', see Service Feature Limitations and Reasons. When retrieving service features for an extension, the reasons for the limitations, if any, are returned in response"
-        }
-      }
-    }
-  ,
-
-    "ServiceFeatureLimitations": {
-      "required":[
-      ],
-      "properties": {
-        "AccountTypeLimitation": {
-          "type": "Principal account type limitation. Feature is not supported for account type",
-          "description": "Free Digital Line service feature is turned off on UBP tier"
-        },
-        "ExtensionTypeLimitation": {
-          "type": "Principal extension type limitation. Feature is not supported for particular extension type (built-in Product restriction)",
-          "description": "Announcement Only or Take Messages Only extension types that cannot send SMS, feature is disabled because of immutable extension type limitation and it is impossible to change the type of this extension"
-        },
-        "AccountLimitation": {
-          "type": "Account limitation (service parameter setting at brand, tier or account level); can be changed only by RC Customer Support, or by upgrading to a different tier",
-          "description": "SMS can be turned off for a particular account/tier"
-        },
-        "ExtensionLimitation": {
-          "type": "Extension limitation, requiring chargeable action; can be changed by Account Administrator, requires chargeable action (except tier upgrades)",
-          "description": "For Free Digital Line (FreeDL) service feature, available only if there is at least one paid digital line on this extension"
-        },
-        "InsufficientPermissions": {
-          "type": "Extension limitation, resolution is not chargeable; can be changed by Account Administrator without extra charges",
-          "description": "International Calling is turned off using extension permissions"
         }
       }
     }
