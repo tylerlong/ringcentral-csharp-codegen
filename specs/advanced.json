@@ -6800,7 +6800,7 @@
         "addons": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "Addons description"
         },
