@@ -5309,10 +5309,7 @@
       ],
       "properties": {
         "device": {
-          "type": "array",
-          "items": {
-            "type": "parameters"
-          },
+          "type": "string",
           "description": "Device unique description"
         },
         "id": {
@@ -5330,7 +5327,7 @@
         "sipInfo": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "SIP settings for device"
         },
@@ -5349,7 +5346,7 @@
         "originalStrings": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "Phone numbers passed in a string. The maximum value of phone numbers is limited to 64. The maximum number of symbols in each phone number in a string is 64"
         }
@@ -7577,7 +7574,7 @@
         "addons": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "Addons description"
         },
@@ -7668,7 +7665,7 @@
         "method": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "Shipping method information"
         },
@@ -7685,7 +7682,7 @@
         "address": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "Shipping address for the order. If it coincides with the Emergency Service Address, then can be omitted. By default the same value as the emergencyServiceAddress. Multiple addresses can be specified; in case an order contains several devices, they can be delivered to different addresses"
         },
@@ -8279,14 +8276,15 @@
         "pages": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "List of pages to include to the report. If empty, all pages are included. Otherwise, only specified pages are included. API doesn't check validity of page names. Client application is responsible to do that"
         },
         "recipients": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string",
+            "format": "email"
           },
           "description": "List of emails to which to send rendered reports"
         }
@@ -8630,10 +8628,7 @@
       ],
       "properties": {
         "device": {
-          "type": "array",
-          "items": {
-            "type": "parameters"
-          },
+          "type": "string",
           "description": "Information on a device"
         },
         "id": {
@@ -8668,7 +8663,7 @@
         "phoneLines": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "Digital Lines assigned to the device (if any). Empty array is returned if device has no DLs assigned"
         },
@@ -8689,7 +8684,7 @@
         "sipInfo": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "SIP settings for device"
         },
@@ -8725,7 +8720,7 @@
         "sipFlags": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "SIP flags data"
         },
@@ -8813,7 +8808,7 @@
         "features": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "Information on options allowed/disallowed for the special number"
         },
@@ -8849,7 +8844,7 @@
         "reason": {
           "type": "array",
           "items": {
-            "type": "parameters"
+            "type": "string"
           },
           "description": "The reason explaining why the option is disallowed. Returned if the value of enabled is 'False'"
         },
