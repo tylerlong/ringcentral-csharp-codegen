@@ -3308,7 +3308,12 @@
           "description": "Information on the extension, to which the phone number is assigned. Returned only for the request of Account phone number list"
         },
         "features": {
-          "type": "Set of 'CallerId', 'SmsSender'",
+          "type": "array",
+          "format": "Set of 'CallerId', 'SmsSender'",
+          "items": {
+            "type": "string",
+            "format": "'CallerId' | 'SmsSender'"
+          },
           "description": "Indicates if this phone number is enabled to appear as CallerId and/or to send outbound SMS from it. Returned only for the request of Extension phone number list"
         },
         "location": {
