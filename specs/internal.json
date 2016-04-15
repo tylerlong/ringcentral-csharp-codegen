@@ -5305,11 +5305,11 @@
       ],
       "properties": {
         "Content-Type": {
-          "type": "MIME type",
+          "type": "string",
           "description": "Type of custom data attachment, see also MIME Types"
         },
         "Content-Disposition": {
-          "type": "",
+          "type": "string",
           "description": "Filename and binary data. Maximum attachment size is limited to 5Mb"
         }
       }
