@@ -5812,10 +5812,7 @@
           "description": "Service features information, see Service Feature List"
         },
         "limits": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/AccountLimits"
-          },
+          "$ref": "#/definitions/AccountLimits",
           "description": "Limits which are effective for the account"
         }
       }
@@ -5844,16 +5841,16 @@
       ],
       "properties": {
         "freeSoftPhoneLinesPerExtension": {
-          "type": "The maximum number of free softphone digital lines per user extension",
-          "description": ""
+          "type": "integer",
+          "description": "The maximum number of free softphone digital lines per user extension"
         },
         "meetingSize": {
-          "type": "The maximum number of participants in RingCentral Meeting hosted by this account's user",
-          "description": ""
+          "type": "integer",
+          "description": "The maximum number of participants in RingCentral Meeting hosted by this account's user"
         },
         "maxMonitoredExtensionsPerUser": {
-          "type": "The maximum number of extensions which can be included in the list of users monitored for Presence",
-          "description": ""
+          "type": "integer",
+          "description": "The maximum number of extensions which can be included in the list of users monitored for Presence"
         }
       }
     }
