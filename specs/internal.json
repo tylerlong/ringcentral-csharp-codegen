@@ -2001,14 +2001,16 @@
             },
             {
               "name": "dateFrom",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The start datetime for resulting records in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is dateTo minus 24 hours",
               "required": false
             },
             {
               "name": "dateTo",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The end datetime for resulting records in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is current time",
               "required": false
@@ -2055,7 +2057,8 @@
             },
             {
               "name": "dateTo",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The end datetime for records deletion in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is current time",
               "required": false
@@ -2272,14 +2275,16 @@
             },
             {
               "name": "dateTo",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The end datetime for resulting records in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is current time",
               "required": false
             },
             {
               "name": "dateFrom",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The start datetime for resulting records in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is dateTo minus 24 hours",
               "required": false
@@ -2334,7 +2339,8 @@
             },
             {
               "name": "dateTo",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The end datetime for records deletion in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is current time",
               "required": false
@@ -2442,7 +2448,8 @@
             },
             {
               "name": "dateFrom",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The start datetime for resulting records in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is the current moment",
               "required": false
@@ -3132,14 +3139,16 @@
             },
             {
               "name": "dateFrom",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The start datetime for resulting messages in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is dateTo minus 24 hours",
               "required": false
             },
             {
               "name": "dateTo",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The end datetime for resulting messages in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is current time",
               "required": false
@@ -3458,14 +3467,16 @@
             },
             {
               "name": "dateFrom",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The start datetime for resulting messages in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is dateTo minus 24 hours",
               "required": false
             },
             {
               "name": "dateTo",
-              "type": "datetime",
+              "type": "string",
+              "format": "date-time",
               "in": "query",
               "description": "The end datetime for resulting messages in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. The default value is current time",
               "required": false
