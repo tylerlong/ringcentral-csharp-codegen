@@ -437,7 +437,7 @@
             "200": {
               "description": "Success",
               "schema": {
-                "$ref": "#/definitions/"
+                "$ref": "#/definitions/GetAccountPhoneNumbersResponse"
               }
             }
           }
@@ -5070,7 +5070,7 @@
       }
     }
   ,
-    "": {
+    "GetAccountPhoneNumbersResponse": {
       "required":[
         "records",
         "paging",
