@@ -1,11 +1,6 @@
 # RingCentral C# Code Generator
 
 
-## requirements
-
-This project and the ringcentral-csharp project should locate in the same directory.
-
-
 ## setup
 
 Install pip: https://pip.pypa.io/en/stable/installing/
@@ -16,11 +11,15 @@ sudo pip install fabric
 ## commands
 
 ```
-fab basic
-fab advanced
+fab generate:<spec>,<language>
 ```
 
+Examples:
 
-## todo
+```
+fab generate # by default spec = advanced, language = csharp
+fab generate:basic,javascript # generate javascript code for basic spec
+fab generate:internal,java # generate java code for internal spec
+```
 
-Where to get internal spec?
+The generated code is located in ./tmp directory.
