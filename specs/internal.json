@@ -5148,7 +5148,8 @@
           "description": "The datetime to send fax at, in ISO 8601 format including timezone, for example 2016-03-10T18:07:52.534Z. If time is not specified, the fax will be send immediately"
         },
         "coverIndex": {
-          "type": "integer (0-16)",
+          "type": "integer",
+          "format": "0-16",
           "description": "Optional. Cover page index. If not specified, the default cover page which is configured in  Outbound Fax Settings  is attached. See also 'Available Cover Pages' table below"
         },
         "coverPageText": {
